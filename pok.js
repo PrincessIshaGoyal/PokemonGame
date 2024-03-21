@@ -75,7 +75,7 @@ instance.innerHTML += `
                     <div class="number">
                         <small>#${data.id}</small>
                     </div>
-                    <img src="${data.sprites.front_defalut}" alt="${data.name}">
+                    <img src="${data.sprites.front_default}" alt="${data.name}">
                     <div class="detail">
                         <h3>${data.name}</h3>
                         <small>Type : ${data.types[0].type.name}</small>
