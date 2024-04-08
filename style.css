@@ -49,7 +49,7 @@ body {
     margin: .3rem;
     border: 1px solid #efefef;
     border-radius: 2rem;
-    min-width: 160px;
+    min-width: 200px;
     text-align: center;
     box-shadow: 0 3px 15px #00000017;
 }
@@ -91,6 +91,59 @@ body {
     background-color: #333;
 }
 
+.grass {
+background-color: #03fc28;
+}
+
+.fire {
+background-color: #fc1303;
+}
+
+.water {
+background-color: #035efc;
+}
+
+.bug {
+background-color: #cf1b84;
+}
+
+.normal {
+background-color: #e8ace1;
+}
+
+.poison {
+background-color: #a903fc;
+}
+
+.electric {
+background-color: #e4ed32;
+}
+
+.ground {
+background-color: #735221;
+}
+
+.fairy {
+background-color: #ed32d7;
+}
+
+.fighting {
+background-color: #800303;
+}
+
+.psychic {
+background-color: #509605;
+}
+
+.rock {
+background-color: #383632;
+}
+
+.ghost {
+background-color: #2c4b4d;
+}
+
+
 /* Load More button */
 .loadMore {
     background-color: #76daff;
@@ -107,4 +160,8 @@ body {
 /* Load More button hover effect */
 .loadMore:hover {
     background-color: #66c2ff;
+}
+
+.hide {
+  display: none;
 }
