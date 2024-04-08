@@ -104,6 +104,10 @@ background-color: #fc1303;
 background-color: #035efc;
 }
 
+.ice {
+background-color: #035efc;
+}
+
 .bug {
 background-color: #cf1b84;
 }
@@ -144,6 +148,17 @@ background-color: #383632;
 background-color: #2c4b4d;
 }
 
+.dark {
+background-color: #2c4b4d;
+}
+
+.steel {
+background-color: #abe8ed;
+}
+
+.dragon {
+background-color: #0a0101;
+}
 
 /* Load More button */
 .loadMore {
