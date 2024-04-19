@@ -2,7 +2,7 @@ let instance = document.querySelector(".pokemonDiv");
 let next = null;
 let cell = 0;
 
-function getPokemonList(e = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20'){
+function getPokemonList(e = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=24'){
 
     fetch(e)
     .then((Response) => Response.json())
@@ -30,8 +30,8 @@ function getPokemon(e){
                         <small>Type : ${data.types[0].type.name}</small>
                         <button class="pokeinfo hello" onclick="toggleContent(this)">Know more...</button>
                         <div class="desc hide">
-                            <p><b>Height</b> is <b>${data.height} cm</b></p>
-                            <p><b>Weight</b> is <b>${data.weight} Kg</b></p>
+                            <p><b>Height</b> ~ <b>${data.height*10} cm</b></p>
+                            <p><b>Weight</b> ~ <b>${data.weight/10} Kg</b></p>
                             <h3>Stat</h3>
                             <p><b>hp : ${data.stats[0].base_stat}</b></p>
                             <p><b>attack : ${data.stats[1].base_stat}</b></p>
@@ -53,7 +53,7 @@ function getPokemon(e){
 getPokemonList();
 
 function toggleContent(e){
-    console.log(e.parentNode.childNodes[7]);
+    console.log(e.parentNode.childNodes[1,7]);
     if(e.innerText == "Know more..."){
         e.innerText = "Know less...";
         e.parentNode.childNodes[7].classList.remove('hide');
