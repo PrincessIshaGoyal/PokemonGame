@@ -78,7 +78,6 @@ body {
 }
 
 .card .detail button {
-    color: #161616;
     padding: .5rem;
     margin-top: 1rem;
     border: none;
@@ -100,11 +99,7 @@ background-color: #03fc28;
 background-color: #fc1303;
 }
 
-.water {
-background-color: #035efc;
-}
-
-.ice {
+.water, .ice {
 background-color: #035efc;
 }
 
@@ -144,11 +139,7 @@ background-color: #509605;
 background-color: #383632;
 }
 
-.ghost {
-background-color: #2c4b4d;
-}
-
-.dark {
+.ghost, .dark {
 background-color: #2c4b4d;
 }
 
