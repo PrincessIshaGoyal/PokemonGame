@@ -3,7 +3,6 @@ let next = null;
 let cell = 0;
 
 function getPokemonList(e = 'https://pokeapi.co/api/v2/pokemon/?offset=0&limit=24'){
-
     fetch(e)
     .then((Response) => Response.json())
     .then((data) => {
